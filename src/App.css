@@ -45,10 +45,23 @@
 
 @media only screen and (max-width: 600px) {
     .title {
-        font-size: 32px;
+        font-size: 26px;
+        margin-bottom: 0;
     }
-    .card{
+
+    .card {
+        width: 100%;
         border: none;
+    }
+
+    .logo{
+        padding-bottom: 0;
+
+    }
+
+    h2 {
+        margin: 0;
+        padding-top: 0;
     }
 
 }
