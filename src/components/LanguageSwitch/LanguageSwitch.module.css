@@ -35,7 +35,8 @@ input.check-toggle-round-flat:checked ~ .on {
 .switch > span.off {
     right: 0;
     padding-right: 4px;
-    color: #fff;
+    /*color: #fff;*/
+    color: #1a1a1a;
 }
 
 .check-toggle {
@@ -88,7 +89,7 @@ input.check-toggle-round-flat + label:after {
     left: 4px;
     bottom: 4px;
     width: 48px;
-    background-color: #fff;
+    background-color: #1a1a1a;
     -webkit-border-radius: 52px;
     -moz-border-radius: 52px;
     -ms-border-radius: 52px;
@@ -108,10 +109,7 @@ input.check-toggle-round-flat:checked + label:after {
 }
 
 .flag {
-    width: 30px;
+    width: 28px;
     height: 30px;
     cursor: pointer;
-    /*border-radius: 50%;*/
-    /*border: 1px solid #F36F25;*/
-    /*box-shadow: 0 1px 0 rgba(0, 0, 0, .06);*/
 }
