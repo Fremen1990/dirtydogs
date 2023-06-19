@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+.title {
+    font-size: 32px;
+}
+
 .logo {
     height: 28em;
     padding: 2em;
@@ -30,11 +34,12 @@
 .card:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
     transition: transform 0.3s ease;
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .button {
     margin-bottom: 1em;
+    padding-top: 0;
 }
 
 
